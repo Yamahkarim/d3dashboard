@@ -1,0 +1,75 @@
+.iframeContainer {
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+}
+.body background {
+  background: url(https://cdn.newsapi.com.au/image/v1/671c348120ffe64315ae2a67b627c98e?width=1024);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Padding bottom by footer height */
+  padding-bottom: 80px;
+  
+}
+header {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 1000px;
+  padding: 20px;
+  overflow: hidden;
+  border: 3px solid;
+  -webkit-border-radius: 14px;
+  border-radius: 14px;
+  font: normal 16px/1 "Times New Roman", Times, serif;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: #9cc7ed;
+  -webkit-box-shadow: 4px 5px 9px 0 rgba(0,0,0,0.3) ;
+  box-shadow: 4px 5px 9px 0 rgba(0,0,0,0.3) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+}
+.article {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 1000px;
+  padding: 20px;
+  overflow: hidden;
+  border: 3px solid;
+  -webkit-border-radius: 14px;
+  border-radius: 14px;
+  font: normal 16px/1 "Times New Roman", Times, serif;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: #9cc7ed;
+  -webkit-box-shadow: 4px 5px 9px 0 rgba(0,0,0,0.3) ;
+  box-shadow: 4px 5px 9px 0 rgba(0,0,0,0.3) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; /* Set the fixed height of the footer here */
+  height: 10px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+#footer p {
+  margin: 0;
+  font-size: 16px;
+}
